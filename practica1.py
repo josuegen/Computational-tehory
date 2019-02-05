@@ -1,14 +1,25 @@
-
-from numpy import *;
-import os;
-from colorama import *;
-import sys;
-
+#This script has multiple functionalities:
+#1. Ask the user to define an alphabet.(also validates it)
+#2.Ask the user for 2 words(strings) belonging to the alphabet previously defined(also validates it).
+#then you have 7 options to work with:
+#Let w1 and w2 be the words enterd by the user, and let E be the alphabet definen by the user.
+#a) |w1| and |w2|
+#b) Prefix and sufix of w1 and w2
+#c) w1w2
+#d) |w1w2|
+#e)w1^n and w2^n (n defined by the user)
+#f)|w1|c (c defined by the user)
+#g) E^k (k defined by the user)
 
 #autor: Josué Velázquez Gen
 #fecha: 04/Febrero/2019
 #IPN ESCOM
 #Profesor: Yosafat Moscoso
+
+from numpy import *;
+import os;
+from colorama import *;
+import sys;
 
 def limpiarPantalla():
 	if(os.name=="windows"):
