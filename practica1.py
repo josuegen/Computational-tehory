@@ -8,6 +8,7 @@ import sys;
 #autor: Josué Velázquez Gen
 #fecha: 04/Febrero/2019
 #IPN ESCOM
+#Profesor: Yosafat Moscoso
 
 def limpiarPantalla():
 	if(os.name=="windows"):
