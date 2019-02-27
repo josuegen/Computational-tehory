@@ -1,3 +1,6 @@
+#You gotta create the files: l1.txt, l2.txt. concatenacion.txt, union.txt in the same path you just gonna run this script
+#Es necesario crear los archivos: l1.txt, l2.txt. concatenacion.txt, union.txt en la misma ruta donde correrás este script
+
 from numpy import *;
 import os;
 from colorama import *;
