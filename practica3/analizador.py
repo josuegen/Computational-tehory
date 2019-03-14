@@ -7,7 +7,6 @@ class Analizador():
 		return self.estado;
 
 	def analizaPalabra(self,palabra):
-		self.estado=0;
 		valida=0;
 		i=0;
 		while (i in range(len(palabra))):
