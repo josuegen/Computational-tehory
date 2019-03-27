@@ -2,6 +2,9 @@ from tkinter import *;
 from tkinter import messagebox;
 import math;
 
+#IPN ESCOM
+#Velazquez Gen Josue
+#Marzo de 2019
 
 #Configuracion de la raiz
 root = Tk();
