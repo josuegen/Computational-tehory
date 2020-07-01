@@ -1,6 +1,6 @@
 from tkinter import *;
-from analizador import *;
-from validador import *;
+from analizer import *;
+from validator import *;
 
 #Autor: Josue Velazquez
 #ESCOM IPN
